@@ -10,7 +10,7 @@ function App() {
 
   const fixingChildDataNeed = (data) => {
     setSearchData(data)
-    console.log("data searhched",searchData);
+    // console.log("data searched  ",searchData);
   }
   
 
