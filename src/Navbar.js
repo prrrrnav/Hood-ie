@@ -3,9 +3,9 @@ import React, { useState } from 'react'
 const Navbar = ({setSearchData}) => {
    
   const handleSearch = (e) => {
-    let data = e.target.value
+    let data = e.target.value.trim()
     setSearchData(data)
-    // console.log(searchData)
+    // console.log(data)
   }
   return (
     <div className='navbar'>
