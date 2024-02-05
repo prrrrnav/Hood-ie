@@ -137,6 +137,11 @@ p {
   justify-content: space-between;
   align-items: center;
 }
+.procedureCarting{
+  display: flex;
+  flex-direction: row;
+  gap:1em;
+}
 
 .price-cart-btn .button {
   padding: 7px;
@@ -144,14 +149,15 @@ p {
   border-radius: 7px;
   background-color: #5e35b1;
   color: white;
+  font-variant-caps: all-petite-caps;
 }
 
-.price-cart-btn .button:hover {
+/* .price-cart-btn .button:hover {
   padding: 7px;
   border-radius: 7px;
   background-color: #5e35b1be;
   color: white;
-}
+} */
 
 ::-webkit-scrollbar {
 

@@ -32,12 +32,6 @@ const Products = (props) => {
       if (props.searchedItem === key.title)
         setMatchLocation(index)
     })
-
-
-
-
-
-
     // console.log(matchLocation) //here its two(2)
   }, [props.searchedItem])
 
