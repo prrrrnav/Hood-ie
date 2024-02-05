@@ -3,7 +3,7 @@ import React, { useState } from 'react'
 const Navbar = ({setSearchData}) => {
    
   const handleSearch = (e) => {
-    let data = e.target.value.trim()
+    let data = e.target.value.trim().toLowerCase()
     setSearchData(data)
     // console.log(data)
   }
